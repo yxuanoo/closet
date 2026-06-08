@@ -1,6 +1,6 @@
-# U0001f9e5 Closet - AI Smart Wardrobe Manager
+# Closet - AI Smart Wardrobe Manager
 
-> U0001f449 AI管理你的衣樃
+> AI管理你的衣樃
 
 An intelligent wardrobe management app with on-device AI.
 
@@ -14,7 +14,7 @@ An intelligent wardrobe management app with on-device AI.
 - **Calendar Check-in** - Track daily outfits
 - **3D Avatar** - Virtual clothing display
 
-## U0001f680 Quick Start
+## Quick Start
 
 ```bash
 npm install
@@ -22,11 +22,11 @@ cp .env.example .env.local
 npm run dev
 ```
 
-## U0001f3af Tech Stack
+## Tech Stack
 
 React 19 + TypeScript, Vite 6, Tailwind CSS 4, @huggingface/transformers, Supabase, Lucide Icons
 
-## U0001f9e0 AI Pipeline
+## AI Pipeline
 
 1. Upload image
 2. ViT model classifies clothing type
@@ -34,5 +34,5 @@ React 19 + TypeScript, Vite 6, Tailwind CSS 4, @huggingface/transformers, Supaba
 4. DETR panoptic segmentation removes background
 5. Review & confirm results
 
-## U0001f484 License
-MIT
+## License
+yxuanoohahahha
