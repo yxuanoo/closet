@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "PingFang SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-hand: "PingFang SC", "Microsoft YaHei", sans-serif;
+
+  --color-canvas: #fdf2f8; /* Light Pink (pink-50) */
+  --color-ink: #1c1917; /* Stone-900 */
+  --color-accent: #f472d0; /* More vibrant Pink */
+  --color-muted: #78716c; /* Stone-500 */
+  --color-card: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+  }
+
+  h1, h2, h3 {
+    @apply font-display tracking-tight text-ink;
+  }
+}
+
+.btn-primary {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  @apply bg-accent text-white px-8 py-3 rounded-xl font-bold transition-all active:translate-x-1 active:translate-y-1 active:shadow-none hover:-translate-x-0.5 hover:-translate-y-0.5 flex items-center gap-2;
+}
+
+.btn-secondary {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  @apply bg-white text-ink px-8 py-3 rounded-xl font-bold transition-all active:translate-x-1 active:translate-y-1 active:shadow-none hover:-translate-x-0.5 hover:-translate-y-0.5 flex items-center gap-2;
+}
+
+.arch-container {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  @apply rounded-[2rem] overflow-hidden;
+}
+
+.pill-tag {
+  border: 2px solid black;
+  @apply bg-neutral-200/50 px-4 py-1 rounded-full text-sm text-neutral-600;
+}
+
+.brutalist-card {
+  border: 3px solid black;
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  @apply bg-white rounded-[2rem] p-8 transition-all hover:-translate-x-1 hover:-translate-y-1;
+}
+
+@utility brutalist-border {
+  border: 3px solid black;
+}
+
+@utility brutalist-shadow {
+  box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+}
+
+@utility brutalist-shadow-sm {
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}
+
+/* Custom scrollbar to match minimalist style */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1cbc0;
+  border-radius: 10px;
+}
