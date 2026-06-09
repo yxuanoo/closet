@@ -1735,7 +1735,7 @@ const Closet: React.FC<{ onBack: () => void }> = ({ onBack }) => {
       setOutfits([]);
       setSelectedClothes([]);
       setLocations([]);
-      setCheckins([]);          // 清空打卡记录
+      setCheckinEntries([]);          // 清空打卡记录
       setSelectedCheckinDate(null);  // 清空选中的打卡日期
     }
   };
