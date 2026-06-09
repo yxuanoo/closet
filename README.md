@@ -38,9 +38,9 @@ React 19 + TypeScript, Vite 6, Tailwind CSS 4, @huggingface/transformers, Supaba
 yxuanoohahahha
 
 ## Product documents
-[closet产品结构图.pdf](https://github.com/user-attachments/files/28737059/closet.pdf)
+[Closet structure.pdf](https://github.com/user-attachments/files/28737236/Closet.structure.pdf)
 
-[closet产品功能结构图.pdf](https://github.com/user-attachments/files/28737071/closet.pdf)
+[Closet function structure.pdf](https://github.com/user-attachments/files/28737239/Closet.function.structure.pdf)
 
 ## Product initial prototype
 <img width="2880" height="1361" alt="6182044fac8cfce0df8ce40759593d72" src="https://github.com/user-attachments/assets/e089a63e-ab8a-4adf-b79c-1843a67ac9e2" />
